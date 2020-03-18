@@ -9,7 +9,7 @@
     "webdriver-manager": "./node_modules/.bin/webdriver-manager"
   },
   "scripts": {
-    "tsc": "rimraf convertedJS/ && tsc && tspath -f",
+    "tsc": "rimraf outputJS/ && tsc && tspath -f",
     "webdriver-update": "webdriver-manager update --gecko=false",
     "webdriver-start": "webdriver-manager start",
     "test-local": "protractor outputJS/conf.local.js"
